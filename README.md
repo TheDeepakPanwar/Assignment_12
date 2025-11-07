@@ -12,61 +12,18 @@ Using Parameterized Constructor:
 Area = 6
 ```
 
-## Q2. Define two structures:
-
-   Marks with members math, science, and english (floats).
-
-   Student with members rollNo (int), name(string), and marks (of type Marks).
-
-   Declare an array of 5 Student structures. Accept input for all students and their marks, compute their average marks, and then display:
-
-  (a) The student with the highest average marks, and
-
-  (b) The student with the lowest average marks.
+## Q2. Define a class Complex to represent complex numbers using constructor overloading. Include three constructors: a default constructor setting both real and imaginary parts to 0, a constructor initializing only the real part (imaginary = 0), and another initializing both real and imaginary parts. Display the complex numbers in the form a + bi and demonstrate all three constructors through different objects.
 
 ### Test Case:
 ```text
-Roll No: 1
-Name: Riya
-Math: 90
-Science: 85
-English: 88
+Default Constructor Object: 0 + 0i
 
-Roll No: 2
-Name: Karan
-Math: 70
-Science: 65
-English: 72
+Enter real part for second complex number: 1
+Object with only real part: 1 + 0i
 
-Roll No: 3
-Name: Neha
-Math: 95
-Science: 92
-English: 96
-
-Roll No: 4
-Name: Arjun
-Math: 55
-Science: 60
-English: 58
-
-Roll No: 5
-Name: Meena
-Math: 80
-Science: 78
-English: 82
-
-Output:
-
-Student with Highest Average Marks:
-Roll No: 3
-Name: Neha
-Average Marks: 94.33
-
-Student with Lowest Average Marks:
-Roll No: 4
-Name: Arjun
-Average Marks: 57.67
+Enter real and imaginary parts for third complex number: 3
+4
+Object with real and imaginary parts: 3 + 4i
 ```
 ## Q3. Define a structure Employee with members id(int), name (string), and salary (float). Declare an array of 5 employees and read their details from user input. Write a menu-driven program that allows the user to:
 
